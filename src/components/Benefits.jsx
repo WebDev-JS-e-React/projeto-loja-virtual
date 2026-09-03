@@ -1,5 +1,5 @@
 const Benefits = () => {
-    return(
+    return (
         <section className="benefits">
             <div className="info-card">
                 <span className="info-icon">🚚</span>

@@ -1,28 +1,27 @@
-const Categories = ({tipos}) => {
-    tipos = ["Roupas", "Eletrônicos", "Calçados", "Acessórios"]
-    return(
+const Categories = () => {
+    return (
         <section className="categories">
             <h2>Categorias</h2>
 
             <div className="category-list">
                 <div className="category-card">
                     <span className="category-icon">👕</span>
-                    <p>{tipos[0]}</p>
+                    <p>Roupas</p>
                 </div>
 
                 <div className="category-card">
                     <span className="category-icon">📱</span>
-                    <p>{tipos[1]}</p>
+                    <p>Eletrônicos</p>
                 </div>
 
                 <div className="category-card">
                     <span className="category-icon">👟</span>
-                    <p>{tipos[2]}</p>
+                    <p>Calçados</p>
                 </div>
 
                 <div className="category-card">
                     <span className="category-icon">🎒</span>
-                    <p>{tipos[3]}</p>
+                    <p>Acessórios</p>
                 </div>
             </div>
         </section>

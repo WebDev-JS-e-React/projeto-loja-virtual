@@ -1,5 +1,5 @@
 const Products = () => {
-    return(
+    return (
         <section id="produtos" className="products">
             <h2>Produtos em destaque</h2>
 
