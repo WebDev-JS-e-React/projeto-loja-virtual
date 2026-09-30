@@ -1,5 +1,4 @@
 import CategoryList from "./CategoryList"
-import CategoryCard from "./CategoryCard"
 
 const Categories = () => {
     return (
